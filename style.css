@@ -1,0 +1,405 @@
+:root {
+  --primaryColor: #fef2f2;
+
+  --complementaryColor: #a52a2a;
+
+  --brandDarkColor: #000000;
+}
+
+
+#Logo img {
+width: 70px;
+}
+
+
+#Social {
+  background-color: #a52a2a;
+  color: #fef2f2;
+  border-radius: 50%;
+  }
+
+  body{
+    margin: 20px;
+    overflow: auto;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    background-color: var(--primaryColor);
+    color: var(--complementaryColor);
+  }
+
+  .Navbar{
+    padding: 20px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+
+#Menu a {
+  overflow: auto;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.Navbar a {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Cinzel", serif;
+
+}
+.Navbar ul {
+    display:flex;
+    gap: 10px;
+    list-style: none;
+    font-family: "Cinzel", serif;
+    color: var(--complementaryColor)
+    
+}
+.Navbar  li a {
+      padding: 10px 10px 10px 10px;
+      Color: brown; 
+      &:hover, &.current {
+      background-color: #a52a2a;
+      color:#fef2f2;
+    }
+  }
+
+  .Navbar h1 {
+    padding-bottom: 0;
+  }
+
+
+@media (min-width: 1201px){
+.main{
+background: url('./Background\ Cafe\ 2.jpg') no-repeat scroll center top/cover;
+height: 1000px;
+  }
+  .text-primary {
+    margin:0;
+    padding-left: 200px;
+    overflow: auto;
+    color: var(--complementaryColor);
+    }
+
+    .Navbar ul {
+      justify-content: space-between;
+      display:flex;
+      gap: 10px;
+      list-style: none;
+      font-family: "Cinzel", serif;
+      color: var(--complementaryColor)
+      
+  }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+.main{ 
+background: url('./Background\ Cafe\ 2.jpg') no-repeat scroll center top/cover;
+ height: 800px;
+  }
+
+    #Logo img {
+    width: 70px;
+    padding-left: 50px;
+    }
+
+
+
+    .Navbar{
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px 20px 10px 20px;
+      justify-content: center;
+      align-items: center;
+
+      }
+
+
+  .text-primary {
+    margin:0;
+    padding-left: 55px;
+    overflow: auto;
+    text-align: center;
+    color: var(--complementaryColor);
+    }
+
+
+
+    .Navbar ul {
+      justify-content: space-between;
+      overflow: auto;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      font-family: "Cinzel", serif;
+      color: var(--complementaryColor)
+      }
+      
+      #Social{
+        overflow: auto;
+        text-align: center;
+        justify-content: center;  
+  }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+.main{ 
+background: url('./Background\ Cafe\ 2.jpg') no-repeat scroll center top/cover;
+    height: 500px;
+    }
+
+    #Logo img {
+      width: 70px;
+      padding-left: 55px;
+      }
+
+
+    .Navbar{
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px 20px 10px 20px;
+      justify-content: center;
+      align-items: center;
+
+      }
+
+    .text-primary {
+      padding-left: 60px;
+      margin:0;
+      overflow: auto;
+      text-align: center;
+      color: var(--complementaryColor);
+      }
+
+      .Navbar ul {
+        justify-content: space-between;
+        overflow: auto;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        font-family: "Cinzel", serif;
+        color: var(--complementaryColor)
+        }
+
+        .Navbar li a{
+        overflow: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #Social{
+      overflow: auto;
+      text-align: center;
+      justify-content: center;  
+}
+
+
+  }
+
+
+section {
+  text-align: center;
+  margin: auto;
+  overflow: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card {
+text-align: center;
+justify-content: center;
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#Chocolate{
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+width: 20%;
+border-radius: 2%;
+}
+
+#MeatPie{
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+width: 20%;
+border-radius: 2%;
+}
+
+#Latte{
+width: 20%;
+border-radius: 2%;
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#Croissant{
+width: 20%;
+border-radius: 2%;
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#ChaiTea{
+width: 20%;
+border-radius: 2%;
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#ApplePie{
+width: 20%;
+border-radius: 2%;
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+  }
+
+.flex-container {
+
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+text-align: center;
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+
+#Events{
+
+border: 5px solid var(--complementaryColor);
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+  
+}
+
+#Events img{
+height: 300px;
+width: 300px;
+border-radius: 50%;
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#Events p{
+color: var(--complementaryColor);
+}
+
+.InfoEvents{
+padding: 20px 20px 20px 20px;
+}
+
+.InfoCafe{
+text-align: center;
+}
+
+.DatesOfContact{
+
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.box img {
+height: 60px;
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.FormTitles {
+color: var(--complementaryColor);
+  }
+
+#footer{
+overflow: auto;
+text-align: center;
+}
+
+#footer h4 {
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: var(--complementaryColor);
+color: var(--primaryColor);
+overflow: auto;
+  }
+
+
+.text-primary {
+  color: var(--complementaryColor);
+  justify-content: center;
+  padding-bottom: 6rem;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  margin-right:20px;
+  width: 98%;
+  padding: 10px;
+  border: 1px var(--primaryColor) solid;
+
+}
+#contact-form {
+  height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+margin: auto;
+overflow: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+outline: none;
+border: 1px solid var(--complementaryColor);
+}
+
+.btn{
+margin: 10px;
+padding: 5px 5px 5px 5px;
+background-color: var(--complementaryColor);
+color: var(--primaryColor);
+border-color: var(--primaryColor);
+font-family: "Cinzel", serif;
+}
+
+
+
