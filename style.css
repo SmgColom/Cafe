@@ -72,7 +72,7 @@ width: 70px;
 
 
 @media (min-width: 1201px){
-.main{
+#carouselExampleAutoplaying{
 background: url('./Background\ Cafe\ 2.jpg') no-repeat scroll center top/cover;
 height: 1000px;
   }
@@ -97,7 +97,7 @@ height: 1000px;
 }
 
 @media (min-width: 769px) and (max-width: 1200px){
-.main{ 
+#carouselExampleAutoplaying{ 
 background: url('./Background\ Cafe\ 2.jpg') no-repeat scroll center top/cover;
  height: 800px;
   }
@@ -151,7 +151,7 @@ background: url('./Background\ Cafe\ 2.jpg') no-repeat scroll center top/cover;
 }
 
 @media (min-width: 320px) and (max-width: 768px){
-.main{ 
+#carouselExampleAutoplaying{ 
 background: url('./Background\ Cafe\ 2.jpg') no-repeat scroll center top/cover;
     height: 500px;
     }
