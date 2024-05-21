@@ -72,8 +72,7 @@ width: 70px;
 
 
 @media (min-width: 1201px){
-.carousel slide {
-  img src = "Background Cafe 2.jpg" no-repeat scroll center top/cover;
+  #carouselExampleAutoplaying {
 height: 1000px;
   }
   .primary-text {
