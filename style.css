@@ -72,13 +72,11 @@ width: 70px;
 
 
 @media (min-width: 1201px){
-.carousel slide {
-  img src = "Background Cafe 2.jpg" no-repeat scroll center top/cover;
-height: 1000px;
-  }
+
   .primary-text {
     margin:0;
     padding-left: 200px;
+    text-align: center;
     overflow: auto;
     color: var(--complementaryColor);
     }
@@ -224,8 +222,8 @@ margin: auto;
 overflow: auto;
 padding-left: 1rem;
 padding-right: 1rem;
-width: 20%;
-border-radius: 2%;
+width: 40%;
+border-radius: 20%;
 }
 
 #MeatPie{
@@ -233,13 +231,13 @@ margin: auto;
 overflow: auto;
 padding-left: 1rem;
 padding-right: 1rem;
-width: 20%;
-border-radius: 2%;
+width: 60%;
+border-radius: 20%;
 }
 
 #Latte{
-width: 20%;
-border-radius: 2%;
+width: 60%;
+border-radius: 20%;
 margin: auto;
 overflow: auto;
 padding-left: 1rem;
@@ -247,8 +245,8 @@ padding-right: 1rem;
 }
 
 #Croissant{
-width: 20%;
-border-radius: 2%;
+width: 50%;
+border-radius: 20%;
 margin: auto;
 overflow: auto;
 padding-left: 1rem;
@@ -256,8 +254,8 @@ padding-right: 1rem;
 }
 
 #ChaiTea{
-width: 20%;
-border-radius: 2%;
+width: 50%;
+border-radius: 20%;
 margin: auto;
 overflow: auto;
 padding-left: 1rem;
@@ -265,8 +263,8 @@ padding-right: 1rem;
 }
 
 #ApplePie{
-width: 20%;
-border-radius: 2%;
+width: 70%;
+border-radius: 20%;
 margin: auto;
 overflow: auto;
 padding-left: 1rem;
