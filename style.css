@@ -72,7 +72,8 @@ width: 70px;
 
 
 @media (min-width: 1201px){
-  #carouselExampleAutoplaying {
+.carousel slide {
+  img src = "Background Cafe 2.jpg" no-repeat scroll center top/cover;
 height: 1000px;
   }
   .primary-text {
@@ -96,10 +97,7 @@ height: 1000px;
 }
 
 @media (min-width: 769px) and (max-width: 1200px){
-#carouselExampleAutoplaying{ 
-background: url('./Background\ Cafe\ 2.jpg') no-repeat scroll center top/cover;
- height: 800px;
-  }
+
 
     #Logo img {
     width: 70px;
@@ -150,9 +148,7 @@ background: url('./Background\ Cafe\ 2.jpg') no-repeat scroll center top/cover;
 }
 
 @media (min-width: 320px) and (max-width: 768px){
-#carouselExampleAutoplaying{ 
-    height: 500px;
-    }
+
 
     #Logo img {
       width: 70px;
@@ -359,7 +355,7 @@ overflow: auto;
   }
 
 
-  .primary-text {
+.primary-text {
   color: var(--complementaryColor);
   justify-content: center;
   padding-bottom: 6rem;
